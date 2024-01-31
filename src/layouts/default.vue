@@ -130,7 +130,7 @@ const tabs = [
   { value: 'price', title: '价格' },
   { value: 'deploy', title: '私有部署' },
   { value: 'solution', title: '解决方案' },
-  { value: 'doc', title: '帮助文档' }
+  // { value: 'doc', title: '帮助文档' }
 ];
 const outside = [
   { label: '浙江省住房和城乡建设厅', url: 'https://jst.zj.gov.cn/' },
