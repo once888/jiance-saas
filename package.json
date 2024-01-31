@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --open",
+    "build": "nuxt build",
+    "start": "cross-env PORT=3007 node .output/server/index.mjs",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/lodash": "^4.14.202",
+    "nuxt": "3.2.0",
+    "sass": "^1.69.3",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.3.21"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/vercel-builder": "^0.24.0",
+    "@pinia/nuxt": "^0.4.5",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/md5": "^2.3.5",
+    "@vueuse/core": "^9.6.0",
+    "@vueuse/nuxt": "^9.6.0",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "mitt": "^3.0.1",
+    "mysql2": "^3.6.5",
+    "pinia": "^2.0.26",
+    "v-preview-image": "3.0.8"
+  }
+}

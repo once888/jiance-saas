@@ -1,0 +1,20 @@
+.dialog {
+  // 弹窗头部
+  &-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    i {
+      cursor: pointer;
+      padding-top: 6px;
+    }
+  }
+  // 弹窗底部
+  &-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  }
+}
